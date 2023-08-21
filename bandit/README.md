@@ -50,5 +50,15 @@ After you've printed the content of this file, you should be good to proceed to 
 
 ---
 
+<h3>Level 3</h3>
 
+* username: `bandit3`
+* password: `aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG` *(password might be changed in future)*
+* hostname: `bandit.labs.overthewire.org`
+* port: `2220`
 
+**SSH:** `ssh -p 2220 bandit3@bandit.labs.overthewire.org`
+
+If you `ls` you'll see an `inhere` directory. Go under that directory and execute `ls -a` which allows you to see hidden files and directories. After that, you should be able to see the `.hidden` file, which contains the password for `bandit4`. Get it and move on to the next level.
+
+---
