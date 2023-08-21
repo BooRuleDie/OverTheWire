@@ -74,7 +74,7 @@ If you `ls` you'll see an `inhere` directory. Go under that directory and execut
 
 After you've logged in, go under the `inhere` directory and `ls -la`. You'll see there are lots of files that start with a special character, so you can't directly use `cat *` but instead we can use `grep -R .` to get all lines recursively.
 
-<img src="./img/img1.png">
+<img src="../img/img1.png" width="300px">
 
 ---
 
